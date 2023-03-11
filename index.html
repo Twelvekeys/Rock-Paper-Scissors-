@@ -1,15 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="style.css">
     <script src="script.js"></script>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>RPS Game</title>
 </head>
 <body>
-<div class="choices">
-<button onclick="playerchoice('rock')" class="rock" >Rock</button>
-<button onclick="playerchoice('paper')" class="paper">Paper</button>
-<button onclick="playerchoice('scissors')" class="scissors">Scissors</button>
+
+<div class="container">
+    <div class="box">
+<div class="rock">
+<button onclick="playerchoice('rock')"  >Rock</button>
+    </div>
+<div class="paper">
+<button onclick="playerchoice('paper')" >Paper</button>
+    </div>
+<div class="scissors">
+<button onclick="playerchoice('scissors')" >Scissors</button>
+    </div>
+    </div>
+    <h2 class="replay" id="btn">First to 5, wins</h2>
+    <div class="box">
+    <div class="rscore">
+        <div class="score">Player Score</div>
+        <p id="p1score">0</p>
+    </div>
+    <div class="rscore">
+        <div class="score">NPC Score</div>
+        <p id="npcscore">0</p>
+    </div>
+    </div>
 </div>
+<h3 class="display" id="display"></h3>
 </body>
 </html>

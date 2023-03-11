@@ -1,4 +1,67 @@
-.choices {
 
+html {
+    background-color: black;
 }
 
+body{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+}
+h2 {
+    color:white;
+
+}
+button {
+    border-color: silver;
+    border-radius: 14px;
+    font-size: 30px;
+    width: 150px;
+}
+.container{
+    margin-top: 60px;
+    display:flex;
+
+    justify-content: space-between;
+    border-width: 10px;
+    border-color: black;
+    height: 350px;
+    width: 500px;
+    align-items: center;
+    flex-direction: column;
+}
+.rock,.paper,.scissors{
+
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 100px;
+
+}
+.display{
+    height: 100px;
+    width: 200px;
+    font-size: 22px;
+    color: white;
+
+}
+.rscore {
+    font-weight: bolder;
+    font-size: 26px;
+    display: flex;
+    width: 110px;
+    align-items: center;
+    color: white;
+
+ }
+
+ .box {
+     display: flex;
+
+     width: 500px;
+     justify-content: space-around;
+ }
